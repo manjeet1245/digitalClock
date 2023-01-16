@@ -1,0 +1,59 @@
+body{
+    margin : 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: aqua;
+    font-family: sans-serif;
+    background-image: url(image.jpg);
+}
+
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+}
+
+.container div{
+    margin: 5px;
+    position: relative;
+}
+
+.container span{
+    width: 100px;
+    height: 80px;
+    background-color: slateblue;
+    opacity: .8;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.container .text{
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: chartreuse;
+    opacity: .8;
+}
+
+#ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: chartreuse;
+}
